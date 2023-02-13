@@ -1,2 +1,2 @@
 # Organo
-#Oragano é um pequeno projeto React do curso da Alura
+#Organo é um pequeno projeto React do curso da Alura
