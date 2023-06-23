@@ -4,6 +4,7 @@ import ListaSuspensa from '../ListaSuspensa'
 import Botao from '../Botao'
 
 const Formulario = () => {
+   
   const times = [
     'Programação',
     'Front-end',
@@ -23,21 +24,21 @@ const Formulario = () => {
       <form onSubmit={handleSubmit}>
         <h2>Preencha aqui os dados do colaborador</h2>
         <CampoTexto
-          required="true"
+          required={true}
           label="Nome"
           placeholder="Digite seu nome"
         />
         <CampoTexto
-          required="true"
+          required={true}
           label="Cargo"
           placeholder="Digite seu cargo"
         />
         <CampoTexto
-          required="true"
+          required={true}
           label="Imagem"
           placeholder="Insira a imagem"
         />
-        <ListaSuspensa required="true" label="times" itens={times} />
+        <ListaSuspensa required={true} label="times" itens={times} />
         <Botao>Criar card</Botao>
       </form>
     </section>
